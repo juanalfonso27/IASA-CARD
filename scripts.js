@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    if (updateForm) 
+    if (updateForm) {
         sellers.forEach(seller => {
             const option = document.createElement('option');
             option.value = seller;
@@ -192,4 +192,3 @@ if (sellerInfo) {
         window.location.href = 'login.html';
     }
 }
-
