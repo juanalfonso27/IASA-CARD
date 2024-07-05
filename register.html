@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro</h1>
+    <form id="registerForm">
+        <input type="text" id="username" placeholder="Nombre de usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <select id="role" required>
+            <option value="" disabled selected>Selecciona tu rol</option>
+            <option value="vendedor">Vendedor</option>
+            <option value="admin">Administrador</option>
+        </select>
+        <button type="submit">Registrarse</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

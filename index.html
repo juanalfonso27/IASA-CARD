@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Plataforma de Vendedores</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase App (la librería central de Firebase) -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- Firebase Authentication -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+<!-- Firebase Database -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+</head>
+<body>
+    <h1>Plataforma de Vendedores</h1>
+    <nav>
+        <ul>
+            <li><a href="register.html">Registro</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <script>
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDpHvAic3h8iJOUe-YXPjbMFmfB8Wag4ok",
+  authDomain: "iasacard.firebaseapp.com",
+  projectId: "iasacard",
+  storageBucket: "iasacard.appspot.com",
+  messagingSenderId: "712796775383",
+  appId: "1:712796775383:web:9fd2cb98b8995b2d3ee192"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
