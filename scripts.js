@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-if (registerForm) {
+if (registerForm) 
     registerForm.addEventListener('submit', function (event) {
         event.preventDefault();
         const username = document.getElementById('username').value;
