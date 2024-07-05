@@ -108,7 +108,7 @@ if (registerForm)
                 alert('Error al registrar el usuario: ' + error.message);
             });
     });
-}
+
 if (loginForm) {
     loginForm.addEventListener('submit', function (event) {
         event.preventDefault();
