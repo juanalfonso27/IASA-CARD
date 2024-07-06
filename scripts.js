@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     firebase.initializeApp(firebaseConfig);
 
-
     const sellerName = document.getElementById("sellerName");
     const sellerPoints = document.getElementById("sellerPoints");
     const sellerBalance = document.getElementById("sellerBalance");
@@ -25,14 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         let username = $("#username").val();
         let password = $("#password").val();
         let role = $("#role").val();
-
-        // Expresión regular para validar al menos 3 números en la contraseña
-        let passwordRegex = /(?=(.*\d){3})/;
-
-        if (!passwordRegex.test(password)) {
-            alert("La contraseña debe contener al menos 3 números.");
-            return;
-        }
 
         firebase
             .auth()
