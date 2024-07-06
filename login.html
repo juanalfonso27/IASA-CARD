@@ -18,6 +18,20 @@
         <input type="password" id="loginPassword" placeholder="Contraseña" required>
         <button type="submit">Iniciar Sesión</button>
     </form>
+    <script>
+        const loginUsername = document.getElementById("loginUsername");
+        const loginPassword = document.getElementById("loginPassword");
+
+        loginUsername.addEventListener("keydown", function (event) {
+            if (event.key === " ") {
+                event.preventDefault();
+            }
+        });
+
+        loginPassword.addEventListener("input", function () {
+            this.value = this.value.replace(/[^0-9]/g, "");
+        });
+    </script>
     <script src="scripts.js"></script>
 </body>
 </html>
