@@ -14,7 +14,8 @@
 <body>
     <h1>Registro</h1>
     <form id="registerForm">
-        <input type="text" id="username" placeholder="Nombre de usuario" required>
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="text" id="username" placeholder="Usuario" required>
         <input type="password" id="password" placeholder="Contraseña" required>
         <select id="role" required>
             <option value="" disabled selected>Selecciona tu rol</option>
@@ -23,6 +24,20 @@
         </select>
         <button type="submit">Registrarse</button>
     </form>
+    <script>
+        const username = document.getElementById("username");
+        const password = document.getElementById("password");
+
+        username.addEventListener("keydown", function (event) {
+            if (event.key === " ") {
+                event.preventDefault();
+            }
+        });
+
+        password.addEventListener("input", function () {
+            this.value = this.value.replace(/[^0-9]/g, "");
+        });
+    </script>
     <script src="scripts.js"></script>
 </body>
 </html>
