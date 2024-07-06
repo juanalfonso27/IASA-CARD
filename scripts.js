@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     firebase.initializeApp(firebaseConfig);
 
     const sellerName = document.getElementById("sellerName");
+    const sellerusername = document.getElementById("sellerusername");
     const sellerPoints = document.getElementById("sellerPoints");
     const sellerBalance = document.getElementById("sellerBalance");
     const sellerInfo = document.getElementById("sellerInfo");
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         console.log("enviando datos");
 
+        let nombre = $("#name").val();
         let username = $("#username").val();
         let password = $("#password").val();
         let role = $("#role").val();
@@ -34,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .database()
                     .ref("usuarios/" + user.uid)
                     .set({
+                        name: nombre,
                         username: username,
                         role: role,
                         points: 0,
@@ -154,7 +157,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     .then((snapshot) => {
                         let userData = snapshot.val();
                         if (userData && userData.role === "vendedor") {
-                            sellerName.textContent = userData.username;
+                            sellerName.textContent = userData.name;
+                            sellerusername.textContent = userData.username;
                             sellerPoints.textContent = userData.points;
                             sellerBalance.textContent = userData.balance;
                         } else {
