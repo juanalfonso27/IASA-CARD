@@ -1,7 +1,8 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-image: url(iasa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
