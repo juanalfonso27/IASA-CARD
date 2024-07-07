@@ -75,6 +75,22 @@ button:hover {
     margin: 0;
     font-size: 1em;
 }
+#miImagen {
+    position: absolute;
+    top: 50px;
+    left: 520px;
+    width: 200px;
+    height: auto;
+}
+#miImagen2{
+    position: absolute;
+    bottom: 40px; /* Cambia este valor para subir la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 120px;
+}
+
 
 
    </style>
@@ -82,6 +98,8 @@ button:hover {
 <body>
     <div class="container">
         <h1>Iasa Card</h1>
+         <img id="miImagen" src="logo1.png" alt="Logo de la página">
+        <img id="miImagen2" src="logo2.png" alt="Logo de la página">
         <div id="sellerInfo" class="seller-info">
             <p>Nombre: <span id="sellerName"></span></p>
             <p>Usuario: <span id="sellerusername"></span></p>
