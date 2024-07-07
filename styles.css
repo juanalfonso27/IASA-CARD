@@ -53,10 +53,11 @@ nav ul li {
     margin: 0 10px;
 }
 
+ /* styles.css */
 #miImagen {
     position: absolute;
-    top: 50px;
-    left: 700px;
+    top: 500px;
+    left: 600px;
     width: 200px;
     height: auto;
 }
@@ -80,4 +81,3 @@ nav ul li {
         bottom: 65px; /* Ajusta este valor según sea necesario */
         width: 360px; /* Ajusta el ancho según sea necesario */
     }
-}
