@@ -53,15 +53,35 @@ nav ul li {
     margin: 0 10px;
 }
 
-/* Estilos para pantallas de menos de 600px de ancho */
+/* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
-    body {
-      font-size: 14px; /* Tamaño de fuente más pequeño para teléfonos */
-      margin: 15%; /* Márgenes más pequeños para teléfonos */
+    #miImagen {
+        top: 80px; /* Ajusta este valor según sea necesario */
+        left: 25px; /* Ajusta este valor según sea necesario */
+        width: 280px; /* Ajusta el ancho según sea necesario */
     }
-    
-    img {
-      width: 100%; /* Las imágenes ocupan todo el ancho de la pantalla */
+
+    #miImagen2 {
+        bottom: 65px; /* Ajusta este valor según sea necesario */
+        width: 360px; /* Ajusta el ancho según sea necesario */
     }
-  }
-  
+}
+@media (max-width: 768px) {
+    #miImagen {
+        width: 70%;
+    }
+
+    #imagenInferior {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    #miImagen {
+        width: 90%;
+    }
+
+    #imagenInferior {
+        width: 90%;
+    }
+}
