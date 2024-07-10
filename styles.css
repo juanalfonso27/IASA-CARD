@@ -73,7 +73,7 @@ nav ul li {
 @media (max-width: 600px) {
     #miImagen {
        top: 80px; /* Ajusta este valor según sea necesario */
-        left: 80px; /* Ajusta este valor según sea necesario */
+        left: 65px; /* Ajusta este valor según sea necesario */
         width: 150px; /* Ajusta el ancho según sea necesario */
     }
 
