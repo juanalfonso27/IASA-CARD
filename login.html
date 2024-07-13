@@ -84,18 +84,6 @@ nav ul li {
     height: 120px;
 }
 /* Media query para pantallas más pequeñas */
-@media (max-width: 600px) {
-    #miImagen {
-       top: 80px; /* Ajusta este valor según sea necesario */
-        left: 50%; /* Ajusta este valor según sea necesario */
-        width: 150px; /* Ajusta el ancho según sea necesario */
-    }
-
-    #miImagen2 {
-        bottom: 65px; /* Ajusta este valor según sea necesario */
-        width: 380px; /* Ajusta el ancho según sea necesario */
-    }
-}
 @media (max-width: 768px) {
     #miImagen {
         width: 60%;
@@ -106,13 +94,28 @@ nav ul li {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     #miImagen {
-        width: 70%;
+        top: 80px;
+        width: 50%;
+        height: auto;
     }
 
     #miImagen2 {
-        width: 120%;
+        bottom: 65px;
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #miImagen {
+        width: 70%;
+        height: auto;
+    }
+
+    #miImagen2 {
+        width: 90%;
         height: auto;
     }
 }
