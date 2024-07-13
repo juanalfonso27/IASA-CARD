@@ -11,7 +11,7 @@ body {
     justify-content: center;
     height: 100vh;
      transform: scale(1.5);
-    transform-origin: top 30%; /* Cambia el punto de origen del zoom */
+    transform-origin: top 25%; /* Cambia el punto de origen del zoom */
 }
 }
 
