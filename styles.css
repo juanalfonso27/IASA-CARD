@@ -73,13 +73,13 @@ nav ul li {
 }
 /* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
-    #miImagen {
+    #logo.png {
        top: 50%; /* Ajusta este valor según sea necesario */
         left: 65px; /* Ajusta este valor según sea necesario */
         width: 150px; /* Ajusta el ancho según sea necesario */
     }
 
-    #miImagen2 {
+    #logo2.png {
         bottom: 65px; /* Ajusta este valor según sea necesario */
         width: 380px; /* Ajusta el ancho según sea necesario */
     }
