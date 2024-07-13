@@ -59,7 +59,7 @@ nav ul li {
     top: 60px;
     left: 50%;
     width: 300px;
-    height: auto;
+     transform: translateX(-50%);
 }
 #miImagen2{
     position: absolute;
