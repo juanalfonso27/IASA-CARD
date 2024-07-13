@@ -12,6 +12,79 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
      <style>
+         /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(iasa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ #miImagen {
+   
+  position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 250px;
+    height: 110px;
+     transform: translateX(-50%);
+}
+#miImagen2{
+    position: absolute;
+    bottom: 1%; /* Cambia este valor para subir la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 120px;
+}
         /* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
     #miImagen {
