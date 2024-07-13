@@ -83,34 +83,37 @@ nav ul li {
     width: 450px;
     height: 120px;
 }
-/* Media Queries para vista móvil */
+/* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
-    body {
-        background-size: cover;
-        padding: 20px;
-        height: auto;
-        justify-content: flex-start;
-    }
-
-    form {
-        width: 100%;
-        box-shadow: none;
-        padding: 10px;
-    }
-
-    input, select, button {
-        font-size: 14px;
-        padding: 8px;
-    }
-
     #miImagen {
-        width: 200px;
-        height: 90px;
+       top: 80px; /* Ajusta este valor según sea necesario */
+        left: 50%; /* Ajusta este valor según sea necesario */
+        width: 150px; /* Ajusta el ancho según sea necesario */
     }
 
     #miImagen2 {
-        width: 300px;
-        height: 100px;
+        bottom: 65px; /* Ajusta este valor según sea necesario */
+        width: 380px; /* Ajusta el ancho según sea necesario */
+    }
+}
+@media (max-width: 768px) {
+    #miImagen {
+        width: 60%;
+    }
+
+    #miImagen2 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    #miImagen {
+        width: 70%;
+    }
+
+    #miImagen2 {
+        width: 120%;
+        height: auto;
     }
 }
 </style>
