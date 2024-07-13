@@ -54,23 +54,22 @@ nav ul li {
     margin: 0 10px;
 }
 
- /* styles.css */
-#miImagen {
-    position: absolute;
-    top: 5%;
+ #miImagen {
+  position: absolute;
+    top: 100px;
     left: 50%;
-    width: 300px;
+    width: 250px;
+    height: 110px;
      transform: translateX(-50%);
 }
 #miImagen2{
     position: absolute;
-    bottom: 26%; /* Cambia este valor para subir la imagen */
+    bottom: 40px; /* Cambia este valor para subir la imagen */
     left: 50%;
     transform: translateX(-50%);
     width: 450px;
     height: 120px;
 }
-    
 /* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
     #miImagen {
