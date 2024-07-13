@@ -1,1 +1,122 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(iasa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #020202;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ #miImagen {
+   
+  position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 250px;
+    height: 110px;
+     transform: translateX(-50%);
+}
+#miImagen2{
+    position: absolute;
+    bottom: 1%; /* Cambia este valor para subir la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 120px;
+}
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    #miImagen {
+       top: 50%; /* Ajusta este valor según sea necesario */
+        left: 50%; /* Ajusta este valor según sea necesario */
+        width: 150px; /* Ajusta el ancho según sea necesario */
+    }
+
+    #miImangen2 {
+        bottom: 65px; /* Ajusta este valor según sea necesario */
+        width: 380px; /* Ajusta el ancho según sea necesario */
+    }
+}
+
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    #miImagen {
+       top: 80px; /* Ajusta este valor según sea necesario */
+        left: 50%; /* Ajusta este valor según sea necesario */
+        width: 150px; /* Ajusta el ancho según sea necesario */
+    }
+
+    #miImagen2 {
+        bottom: 65px; /* Ajusta este valor según sea necesario */
+        width: 380px; /* Ajusta el ancho según sea necesario */
+    }
+}
+@media (max-width: 768px) {
+    #miImagen {
+        width: 60%;
+    }
+
+    #miImagen2 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    #miImagen {
+        width: 70%;
+    }
+
+    #miImagen2 {
+        width: 120%;
+        height: auto;
+    }
+}
 
