@@ -83,6 +83,39 @@ nav ul li {
     width: 450px;
     height: 120px;
 }
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    #miImagen {
+       top: 80px; /* Ajusta este valor según sea necesario */
+        left: 50%; /* Ajusta este valor según sea necesario */
+        width: 150px; /* Ajusta el ancho según sea necesario */
+    }
+
+    #miImagen2 {
+        bottom: 65px; /* Ajusta este valor según sea necesario */
+        width: 380px; /* Ajusta el ancho según sea necesario */
+    }
+}
+@media (max-width: 768px) {
+    #miImagen {
+        width: 60%;
+    }
+
+    #miImagen2 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    #miImagen {
+        width: 70%;
+    }
+
+    #miImagen2 {
+        width: 120%;
+        height: auto;
+    }
+}
 
 
 
@@ -91,7 +124,7 @@ nav ul li {
 <body>
     <h1>Inicié sesión para ver sus datos</h1>
      <img id="miImagen" src="logo1.png" alt="Logo de la página">
-        <img id="miImagen2" src="logo2.png" alt="Logo de la página">
+     <img id="miImagen2" src="logo2.png" alt="Logo de la página">
     <form id="loginForm">
         <input type="text" id="loginUsername" placeholder="Nombre de usuario" required>
         <input type="password" id="loginPassword" placeholder="Contraseña" required>
