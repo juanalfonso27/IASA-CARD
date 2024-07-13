@@ -82,6 +82,12 @@ nav ul li {
         width: 380px; /* Ajusta el ancho según sea necesario */
     }
 }
+/* Aplica un zoom del 200% a un div con la clase .zoom */
+.zoom {
+    transform: scale(2);
+    transform-origin: center; /* Cambia el punto de origen del zoom al centro */
+}
+
 /* Media query para pantallas más pequeñas */
 @media (max-width: 600px) {
     #miImagen {
