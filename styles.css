@@ -84,7 +84,7 @@ nav ul li {
 }
 /* Aplica un zoom del 200% a un div con la clase .zoom */
 .zoom {
-    transform: scale(2);
+    transform: scale(6);
     transform-origin: center; /* Cambia el punto de origen del zoom al centro */
 }
 
