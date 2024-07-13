@@ -57,7 +57,7 @@ nav ul li {
  /* styles.css */
 #miImagen {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     width: 300px;
      transform: translateX(-50%);
