@@ -57,7 +57,7 @@ nav ul li {
 #miImagen {
     position: absolute;
     top: 60px;
-    left: 620px;
+    left: 50%;
     width: 300px;
     height: auto;
 }
