@@ -56,14 +56,14 @@ nav ul li {
  /* styles.css */
 #miImagen {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     width: 300px;
      transform: translateX(-50%);
 }
 #miImagen2{
     position: absolute;
-    bottom: 40px; /* Cambia este valor para subir la imagen */
+    bottom: 35%; /* Cambia este valor para subir la imagen */
     left: 50%;
     transform: translateX(-50%);
     width: 450px;
