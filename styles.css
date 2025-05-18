@@ -54,8 +54,9 @@ form {
 
 }
 #miImagen2 {
-    margin: 2%;
-    max-width: 100%;
+   padding: 2%;
+   align-self: center;
+    width: 130%;
 }
 
 /* Inputs: ocupan todo el ancho con detalles sutiles */
@@ -103,4 +104,3 @@ button:hover {
     padding: 10px;
   }
 }
-
