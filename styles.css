@@ -45,13 +45,17 @@ form {
 }
 
 /* Imágenes dentro del formulario: centradas, con sutil sombra para realzar los logos */
-form img {
+#miImagen {
     background-color:  #001f3f;  /* Tonos azules profundos */
   display: block;
   margin: 0 auto 20px;
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 8px;
 
+}
+#miImagen2 {
+    margin: 2%;
+    max-width: 100%;
 }
 
 /* Inputs: ocupan todo el ancho con detalles sutiles */
@@ -99,3 +103,4 @@ button:hover {
     padding: 10px;
   }
 }
+
